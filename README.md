@@ -12,7 +12,7 @@ Get Munstrap:
 
 ```
 cd /etc/munin
-git clone https://github.com/jonnymccullagh/munstrap.git
+git clone https://github.com/huncrys/munstrap.git
 ```
 
 Replace the Munin stock template by Munstrap (don't worry, there is a backup of the old files):
