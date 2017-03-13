@@ -10,9 +10,9 @@
     <script>
       $(function () {
         var hash = document.location.hash;
-        var prefix = "tab_";
+        var prefix = "tab-";
         if (hash) {
-          $('.nav-tabs a[href="'+hash.replace(prefix,"")+'"]').tab('show');
+          $('.nav-tabs a[href="' + hash.replace(prefix, "") + '"]').tab('show');
         } 
 
         // Change hash for page-reload
