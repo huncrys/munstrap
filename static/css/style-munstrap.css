@@ -35,14 +35,6 @@ img#zoom_image{
 ul.groupview, ul.groupview ul {
 	list-style-type: none;
 }
-.munin-icon {
-   background: url(../img/logo-munin.png) left top; 
-   margin-top: -6px;
-   width: 35px; 
-   height: 35px;
-   display: block;
-   float: left;
-}
 
 #category-period {
     padding-right: 4px;
