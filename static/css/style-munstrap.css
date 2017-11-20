@@ -1,39 +1,38 @@
-@media (min-width:992px){
-  .modal-lg {width:940px !important;}
+@media (min-width:992px) {
+    .modal-lg {width:940px !important;}
 }
 
-body{
-  padding-top: 70px;
+body {
+    padding-top: 70px;
 }
 
 img.i {
-  display: block;
-  margin: 10px auto;
+    display: block;
+    margin: 10px auto;
 }
 
-img.img-zoom{
-  cursor: pointer;
+img.img-zoom {
+    cursor: pointer;
 }
 
-div.service-alert{
-  margin-top: 10px;
+div.service-alert {
+    margin-top: 10px;
 }
 
-img#zoom_image{
-  margin-bottom: 15px;
+img#zoom_image {
+    margin-bottom: 15px;
 }
 
-
-.link-domain a.link-domain:link a.link-domain:visited a.link-domain:hover a.link-domain:focus  {
-	font-size: 1.4em;	
-	color: #660066;
+.link-domain a.link-domain:link a.link-domain:visited a.link-domain:hover a.link-domain:focus {
+    font-size: 1.4em;
+    color: #660066;
 }
-.link-host a.link-host:link a.link-host:visited a.link-host:hover a.link-host:focus  {
-	font-size: 1.1em;
-	color: #800080;
+.link-host a.link-host:link a.link-host:visited a.link-host:hover a.link-host:focus {
+    font-size: 1.1em;
+    color: #800080;
 }
 ul.groupview, ul.groupview ul {
-	list-style-type: none;
+    list-style-type: none;
 }
 
 #category-period {
@@ -50,34 +49,34 @@ ul.groupview, ul.groupview ul {
 }
 
 .badge-error {
-  background-color: #b94a48;
+    background-color: #b94a48;
 }
 .badge-error:hover {
-  background-color: #953b39;
+    background-color: #953b39;
 }
 .badge-warning {
-  background-color: #f89406;
+    background-color: #f89406;
 }
 .badge-warning:hover {
-  background-color: #c67605;
+    background-color: #c67605;
 }
 .badge-success {
-  background-color: #468847;
+    background-color: #468847;
 }
 .badge-success:hover {
-  background-color: #356635;
+    background-color: #356635;
 }
 .badge-info {
-  background-color: #3a87ad;
+    background-color: #3a87ad;
 }
 .badge-info:hover {
-  background-color: #2d6987;
+    background-color: #2d6987;
 }
 .badge-inverse {
-  background-color: #333333;
+    background-color: #333333;
 }
 .badge-inverse:hover {
-  background-color: #1a1a1a;
+    background-color: #1a1a1a;
 }
 
 .div-home-badges {
