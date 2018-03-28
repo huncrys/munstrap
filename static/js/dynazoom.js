@@ -90,10 +90,10 @@ function popupGraph(img) {
     }
 
     function refreshImg(event) {
-        image.src = qs.get("cgiurl_graph", "/munin-cgi/munin-cgi-graph") + "/"
+        image.src = qs.get("cgiurl_graph", "/graph") + "/"
             + form.plugin_name.value 
             + "-pinpoint=" + parseInt(form.start_epoch.value) + "," + parseInt(form.stop_epoch.value)
-            + ".png"
+            + ".svg"
             + "?" 
             + "&lower_limit=" + form.lower_limit.value
             + "&upper_limit=" + form.upper_limit.value
@@ -157,7 +157,7 @@ function popupGraph(img) {
     // Submit catching
     function endZoomThenSubmit(event) {
             var qs = new Querystring(query);
-            var src = "cgiurl_graph=" + qs.get("cgiurl_graph", "/munin-cgi/munin-cgi-graph")
+            var src = "cgiurl_graph=" + qs.get("cgiurl_graph", "/graph")
                 + "&plugin_name=" + form.plugin_name.value
                 + "&start_epoch=" + form.start_epoch.value
                 + "&stop_epoch=" + form.stop_epoch.value
